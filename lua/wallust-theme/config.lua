@@ -259,6 +259,10 @@ M.highlights_base = function(colors)
 		MiniStatuslineModeOther = { fg = colors.foreground, bg = colors.color8, bold = true },
 		MiniStatuslineModeReplace = { fg = colors.foreground, bg = colors.color7, bold = true },
 		MiniStatuslineModeVisual = { fg = colors.foreground, bg = colors.color9, bold = true },
+		MiniStatuslineDevinfo = { fg = colors.foreground, bg = colors.background },
+		MiniStatuslineFileinfo = { fg = colors.foreground, bg = colors.background },
+		MiniStatuslineFilename = { fg = colors.foreground, bg = colors.background },
+		MiniStatuslineInactive = { fg = colors.foreground, bg = colors.background },
 	}
 end
 
