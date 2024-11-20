@@ -1,7 +1,7 @@
 local M = {}
 
 function M.get_colors()
-	vim.cmd([[ source $HOME/.config/nvim-dev/colors/wallust.vim ]])
+	vim.cmd([[ source $HOME/.config/nvim/colors/wallust.vim ]])
 
 	return {
 		background = vim.g.background,
